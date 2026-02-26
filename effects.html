@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drug Effects (Uses) | DrugLearn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="effects">
+  <header id="siteHeader"></header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Drug Effects and Uses</h1>
+      <p>Understand medicines in plain language: what they are for, how they act, and which conditions they support.</p>
+    </section>
+
+    <section class="page-note card">
+      <p>Think of this page as the “how it works” guide. It translates medical terms into easy explanations for students and everyday readers.</p>
+    </section>
+
+    <section class="controls card">
+      <label for="effectsSearch" class="label">Find Drug Details</label>
+      <input id="effectsSearch" type="search" placeholder="Search by drug name, category, or condition..." />
+    </section>
+
+    <section id="selectedDrug" class="card highlight" aria-live="polite"></section>
+    <section id="effectsList" class="grid"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
